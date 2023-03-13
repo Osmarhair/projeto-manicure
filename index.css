@@ -24,7 +24,13 @@ body {
     text-align: justify;
 }
 
-header > h1 {
+header > div {
+    display: flex;
+    background-color: white;
+
+}
+
+header > div > h1 {
     
     text-align: center;
     font-family: 'Great Vibes', cursive;
