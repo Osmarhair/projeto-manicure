@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de opinião</h1>
+    </header>
+    <main>
+        <form id="form">
+            <fieldset>
+                <p class="texto">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name">
+                </p>
+                <p class="texto">
+                    <label for="company">Empresa</label>
+                    <input type="text" id="company">
+                </p>
+                
+                <div id="cores">
+                    <label for="satsfaction">Harmonia das cores:</label>
+                    <br>
+                    <label for="one">1</label>
+                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <label for="one">2</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">3</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">4</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">5</label>
+                    <input type="radio" id="satisfaction">
+                </div>
+
+                <div id="navegacao">
+                    <label for="satsfaction">Navegação:</label>
+                    <br>
+                    <label for="one">1</label>
+                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <label for="one">2</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">3</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">4</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">5</label>
+                    <input type="radio" id="satisfaction">
+                </div>
+                
+                <div id="conteudo">
+                    <label for="satsfaction">Conteúdo:</label>
+                    <br>
+                    <label for="one">1</label>
+                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <label for="one">2</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">3</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">4</label>
+                    <input type="radio" id="satisfaction">
+                    <label for="one">5</label>
+                    <input type="radio" id="satisfaction">
+                </div>
+                
+                <div id="sugestao">
+                    <label for="sugestao">Sugestão</label>
+                    <br>
+                    <input type="text" id="sugestao" maxlength="500" size="30" width="30">
+                </div>
+            </fieldset>
+        </form>
+
+        <input type="button" value="enviar">
+    </main>
+
+    <footer>
+        Desenvolvido por Osmar Rodrigues 
+    </footer>
+    
+</body>
+</html>
