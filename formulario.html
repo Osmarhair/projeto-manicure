@@ -4,86 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback</title>
+    <title>Simone Santos</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <nav><a href="index.html">Inicio</a></nav>
-        <h1>Pesquisa de opinião</h1>
+        <div id="link">
+            <nav>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+        <h2>Pesquisa de opinião</h2>
     </header>
     <main>
-        <form id="form">
-            <fieldset>
+        <form>
+            <fieldset id="form">
                 <p class="texto01">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name">
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" maxlength="30" size="25">
                 </p>
                 <p class="texto02">
                     <label for="company">Empresa:</label>
-                    <input type="text" id="company">
+                    <input type="text" id="company" maxlength="30" size="25">
                 </p>
                 
                 <div id="cores">
-                    <label for="satsfaction">Harmonia das cores:</label>
+                    <label for="satsfaction">Harmonia: </label>
                     <br>
                     <label for="one">1</label>
-                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <input type="checkbox" id="satisfaction" name="1" value="1">
                     <label for="two">2</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="three">3</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="four">4</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="five">5</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                 </div>
 
                 <div id="navegacao">
                     <label for="navegacao">Navegação:</label>
                     <br>
                     <label for="one">1</label>
-                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <input type="checkbox" id="satisfaction" name="1" value="1">
                     <label for="two">2</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="three">3</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="four">4</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="five">5</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                 </div>
                 
                 <div id="conteudo">
                     <label for="conteudo">Conteúdo:</label>
                     <br>
                     <label for="one">1</label>
-                    <input type="radio" id="satisfaction" name="1" value="1">
+                    <input type="checkbox" id="satisfaction" name="1" value="1">
                     <label for="two">2</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="three">3</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="four">4</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                     <label for="five">5</label>
-                    <input type="radio" id="satisfaction">
+                    <input type="checkbox" id="satisfaction">
                 </div>
                 
                 <div id="sugestao">
                     <label for="sugestao">Sugestão</label>
-                    <br>
-                    <input type="text" id="sugestao" maxlength="500" size="30" width="30">
+                    <input type="text" id="sugestao" maxlength="500" size="25" width="50">
                 </div>
-
-                <input type="button" value="enviar">
+                <br>
+                <input type="submit" value="enviar" id="botao">
             </fieldset>
         </form>
 
         
     </main>
 
-    <footer>
-        Desenvolvido por Osmar Rodrigues 
+    <footer id="fim">
+        <p>Desenvolvido por Osmar Rodrigues</p> 
     </footer>
     
 </body>
