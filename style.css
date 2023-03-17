@@ -238,3 +238,25 @@ footer {
     font-family: 'Great Vibes', cursive;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F2C9E4;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 45px;
+    color: #8C0327;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 55px;
+    text-decoration: none;
+    color: #db1d86;
+    font-size: 24px;
+}
+
